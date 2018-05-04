@@ -1,7 +1,7 @@
 # Phyllotaxis
 This program parametrically generates natural plant forms called phyllotaxis.
 
-Pine cones, romanesco, and sunflowers are good examples of this.
+Pine cones, romanesco, and sunflowers are good examples of phyllotactic spirals.
 
 Inspiration: https://youtu.be/KWoJgHFYWxY
 
