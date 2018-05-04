@@ -1,5 +1,5 @@
 # Phyllotaxis
-This program generates natural plant forms called phyllotaxis.
+This program parametrically generates natural plant forms called phyllotaxis.
 
 Pine cones, romanesco, and sunflowers are good examples of this.
 
