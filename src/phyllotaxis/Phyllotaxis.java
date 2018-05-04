@@ -41,7 +41,7 @@ public class Phyllotaxis extends Application {
      * 
      */
     
-    double phiAngle = 137.3; // phiAngle multiplied by n to calculate phi
+    double phiAngle = 137.5; // phiAngle multiplied by n to calculate phi
     double C = 15; // scaling factor
     double objectSize = 6; // size of objects 
 
@@ -66,7 +66,7 @@ public class Phyllotaxis extends Application {
 
             Ellipse ellipse = new Ellipse(xPos, yPos, objectSize, objectSize);
             //ellipse.setFill(Color.rgb(0, (int)n % 255, (int)n % 10));
-            ellipse.setFill(Color.hsb((phiAngle - n) % 256, phi % 1, 1));
+            ellipse.setFill(Color.hsb(n % 256, 1, 1));
             ellipse.setStroke(Color.BLACK);
             ellipse.setStrokeWidth(0.1);
             ellipse.setSmooth(true);
